@@ -96,7 +96,7 @@ body{
 	font-size: 45px;
 	color: var(--dark);
 	font-weight: 700;
-	line-height: 61px;
+	line-height: 3.8rem;
 	margin-right: 80px;
 }
 .team-about-content h1 .gray-first {

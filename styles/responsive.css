@@ -18,6 +18,22 @@
         margin: 44px 0 23px 0;
         line-height: 2.5rem;
     }
+    /* team about section */
+    .team-about-wrap{
+        flex-direction: column;
+    }
+    .team-about-collage {
+        width: 100%;
+        margin-right: 0;
+    }
+    .team-about-content {
+        width: 100%;
+    }
+    .team-about-content h1 {
+        font-size: 39px;
+        margin-right: 0;
+        margin-top: 30px;
+    }
 }
 
 /* tablet and medium devices */
@@ -31,5 +47,19 @@
     .banner-content {
         width: 90%;
     }
+    /* team about section */
+    .team-about-content {
+        width: 47%;
+    }
+    .team-about-content h1 {
+        font-size: 37px;
+        margin-right: 0;
+    }
+    .team-about-content p {
+        color: var(--gray);
+        margin: 8px 0 17px 0;
+        text-align: justify;
+        font-size: 17px;
+    }
 }
-/* team about section */
+
