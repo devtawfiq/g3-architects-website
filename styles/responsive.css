@@ -1,0 +1,34 @@
+/* mobile device */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .logo h1 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .banner-content {
+        width: 95%;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+        margin: 44px 0 23px 0;
+        line-height: 2.5rem;
+    }
+}
+
+/* tablet and medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .container {
+        width: 85%;
+    }
+    .logo h1 {
+        font-size: 35px;
+    }
+    .banner-content {
+        width: 90%;
+    }
+}
