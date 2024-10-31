@@ -74,3 +74,41 @@ body{
 .banner-section img{
     margin-top: 35px;
 }
+/* team about section */
+.team-section{
+    padding: 50px 0;
+}
+.team-about-wrap{
+    display: flex;
+    align-items: center;
+}
+.team-about-collage {
+	width: 50%;
+	margin-right: 3%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 8px;
+}
+.team-about-content {
+	width: 45%;
+}
+.team-about-content h1 {
+	font-size: 45px;
+	color: var(--dark);
+	font-weight: 700;
+	line-height: 61px;
+	margin-right: 80px;
+}
+.team-about-content h1 .gray-first {
+	color: var(--gray);
+	font-weight: 400;
+}
+.team-about-content h1 .last-word{
+    color: var(--btn-color);
+}
+.team-about-content p {
+	font-size: 18px;
+	color: var(--gray);
+	margin: 24px 0 30px 0;
+	line-height: 31px;
+}
