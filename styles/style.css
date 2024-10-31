@@ -1,0 +1,45 @@
+*{
+   paddign: 0; 
+   margin: 0; 
+}
+/* variabel */
+:root{
+    --dark: #131313;
+    --primary: #fff4e7;
+    --btn-color: #FF900E;
+    --gray: #727272;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+body{
+   font-family: "Work Sans", sans-serif;
+}
+/* Header Section */
+/* Navbar section */
+.header-section {
+	background: var(--primary);
+	padding: 30px 0 50px 0;
+}
+.logo h1 {
+	font-size: 45px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: var(--dark);
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+.menu ul li a{
+    color: #424242;
+}
