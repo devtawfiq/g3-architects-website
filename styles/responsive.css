@@ -60,6 +60,20 @@
     .image-lebel h2 {
         font-size: 20px;
     }
+    /* fact section */
+    .fact-box-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6%;
+    }
+    .fact-box-title {
+        width: 100%;
+    }
+    .fact-box h1 {
+        font-size: 35px;
+    }
+    .fact-box h4 {
+        font-size: 12px;
+    }
 }
 
 /* tablet and medium devices */
@@ -87,6 +101,7 @@
         text-align: justify;
         font-size: 17px;
     }
+    /* Features section */
     .feature-content-left {
         width: 100%;
     }
@@ -101,6 +116,18 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 0 20px;
     }
-
+    /* fact section */
+    .fact-box-title {
+        width: 65%;
+    }
+    .fact-box-wrap {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .fact-box h1 {
+        font-size: 40px;
+    }
+    .fact-box h4 {
+        font-size: 18px;
+    }
 }
 

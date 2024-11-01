@@ -188,3 +188,46 @@ body{
 	font-weight: 500;
 	margin-top: 7px;
 }
+/* Fact Section */
+.fact-section{
+	padding: 100px 0;
+}
+.fact-box-title {
+	width: 40%;
+}
+.fact-box-title h1 {
+	font-size: 45px;
+	color: var(--dark);
+	margin-bottom: 20px;
+}
+.fact-box-title p {
+	font-size: 16px;
+	color: var(--gray);
+	margin-bottom: 45px;
+	line-height: 26px;
+}
+/* .fact-box-wrap {
+	display: flex;
+	justify-content: space-between;
+} */
+.fact-box-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 10%;
+}
+.fact-box {
+	text-align: center;
+	border: 1px solid var(--btn-color);
+	align-content: center;
+	padding: 40px 30px;
+}
+.fact-box h1 {
+	font-size: 45px;
+	margin: 10px 0;
+}
+.fact-box h4 {
+	font-size: 20px;
+	color: var(--gray);
+	font-weight: 600;
+}
