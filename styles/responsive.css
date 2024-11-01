@@ -74,6 +74,23 @@
     .fact-box h4 {
         font-size: 12px;
     }
+    /* Sponsor section */
+    .sponsor-title {
+        width: 100%;
+    }
+    .sponsor-title h1 {
+        font-size: 30px;
+    }
+    .sponsor-box-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+    /* Footer */
+    .footer-section {
+        padding: 30px 0;
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
 
 /* tablet and medium devices */
@@ -128,6 +145,19 @@
     }
     .fact-box h4 {
         font-size: 18px;
+    }
+    /* Sponsor section */
+    .sponsor-title {
+        width: 80%;
+    }
+    .sponsor-box-wrap img {
+        width: 100px;
+    }
+    /* footer */
+    .footer-section {
+        padding: 30px 0;
+        font-size: 16px;
+        line-height: 26px;
     }
 }
 
